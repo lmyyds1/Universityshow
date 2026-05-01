@@ -1,10 +1,11 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useMemo } from 'react'
 import { api } from '../../api'
-import type { Comment, AuditLog } from '../../types'
+import type { Comment, AuditLog, University } from '../../types'
 
 export default function CommentManager() {
   const [comments, setComments] = useState<Comment[]>([])
   const [auditLogs, setAuditLogs] = useState<AuditLog[]>([])
+  const [universities, setUniversities] = useState<University[]>([])
   const [loading, setLoading] = useState(true)
   const [search, setSearch] = useState('')
   const [filterRating, setFilterRating] = useState(0)
@@ -21,12 +22,20 @@ export default function CommentManager() {
     Promise.all([
       api.getAllComments(search || undefined),
       api.getAuditLogs(),
-    ]).then(([c, l]) => {
+      api.getUniversities(),
+    ]).then(([c, l, u]) => {
       setComments(c)
       setAuditLogs(l)
+      setUniversities(u)
     }).catch(() => alert('加载失败'))
       .finally(() => setLoading(false))
   }
+
+  const uniMap = useMemo(() => {
+    const map: Record<number, string> = {}
+    universities.forEach(u => { map[u.id] = u.name })
+    return map
+  }, [universities])
 
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault()
@@ -36,7 +45,7 @@ export default function CommentManager() {
   const handleAdd = async (e: React.FormEvent) => {
     e.preventDefault()
     if (!newForm.content.trim() || !newForm.university_id) {
-      alert('请填写评论内容和关联大学ID')
+      alert('请填写评论内容并选择关联大学')
       return
     }
     setAdding(true)
@@ -172,14 +181,17 @@ export default function CommentManager() {
         <h3 className="text-sm font-bold text-gray-700 mb-3">新增评价</h3>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-3 items-end">
           <div>
-            <label className="block text-xs text-gray-500 mb-1">大学ID</label>
-            <input
-              type="number"
+            <label className="block text-xs text-gray-500 mb-1">关联大学 *</label>
+            <select
               value={newForm.university_id}
               onChange={e => setNewForm(p => ({ ...p, university_id: e.target.value }))}
-              placeholder="如 1"
-              className="w-full px-3 py-2 border border-gray-200 rounded-lg outline-none focus:border-blue-400 text-sm"
-            />
+              className="w-full px-3 py-2 border border-gray-200 rounded-lg outline-none focus:border-blue-400 text-sm bg-white"
+            >
+              <option value="">请选择大学...</option>
+              {universities.map(u => (
+                <option key={u.id} value={u.id}>{u.name}</option>
+              ))}
+            </select>
           </div>
           <div>
             <label className="block text-xs text-gray-500 mb-1">用户名</label>
@@ -228,6 +240,7 @@ export default function CommentManager() {
             <tr className="bg-gray-50 text-left text-gray-500">
               <th className="px-5 py-3 font-medium">ID</th>
               <th className="px-5 py-3 font-medium">用户</th>
+              <th className="px-5 py-3 font-medium hidden sm:table-cell">关联大学</th>
               <th className="px-5 py-3 font-medium">内容</th>
               <th className="px-5 py-3 font-medium hidden md:table-cell">评分</th>
               <th className="px-5 py-3 font-medium hidden sm:table-cell">日期</th>
@@ -237,7 +250,7 @@ export default function CommentManager() {
           <tbody className="divide-y divide-gray-100">
             {filteredComments.length === 0 ? (
               <tr>
-                <td colSpan={6} className="px-5 py-12 text-center text-gray-400">暂无评价数据</td>
+                <td colSpan={7} className="px-5 py-12 text-center text-gray-400">暂无评价数据</td>
               </tr>
             ) : (
               filteredComments.map(c => (
@@ -251,6 +264,9 @@ export default function CommentManager() {
                           onChange={e => setEditForm(p => ({ ...p, user_name: e.target.value }))}
                           className="w-full px-2 py-1 border border-gray-200 rounded outline-none focus:border-blue-400 text-sm"
                         />
+                      </td>
+                      <td className="px-5 py-3 text-gray-500 text-xs hidden sm:table-cell">
+                        {uniMap[c.university_id] || `ID:${c.university_id}`}
                       </td>
                       <td className="px-5 py-3">
                         <textarea
@@ -293,6 +309,9 @@ export default function CommentManager() {
                     <>
                       <td className="px-5 py-3 text-gray-400 text-xs">{c.id}</td>
                       <td className="px-5 py-3 font-medium text-gray-700">{c.user_name}</td>
+                      <td className="px-5 py-3 text-gray-500 text-xs hidden sm:table-cell">
+                        <span className="px-1.5 py-0.5 bg-gray-50 text-gray-500 rounded">{uniMap[c.university_id] || `ID:${c.university_id}`}</span>
+                      </td>
                       <td className="px-5 py-3 text-gray-600 max-w-80 truncate">{c.content}</td>
                       <td className="px-5 py-3 hidden md:table-cell">
                         <span className={`text-xs px-1.5 py-0.5 rounded-full font-medium ${

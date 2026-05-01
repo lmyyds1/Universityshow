@@ -89,6 +89,21 @@
       "feature_tag": "985/211/双一流",
       "created_at": "2026-05-01T15:01:09.456Z",
       "updated_at": "2026-05-01T15:01:09.456Z"
+    },
+    {
+      "id": 552,
+      "name": "新疆大学",
+      "logo": "",
+      "cover_image": "",
+      "description": "新疆大学（Xinjiang University），简称“新大”（XJU），位于乌鲁木齐市，是新疆历史上的第一所高等学校，是中华人民共和国教育部与新疆维吾尔自治区人民政府“部省合作共建高校”、综合性研究型全国重点大学、国家首批“双一流”（42所世界一流大学）建设高校、国家首批“211工程”重点建设高校。学校为国家西部大开发战略重点建设高校，入选国家“111计划”、中西部高校综合实力提升工程、国家建设高水平大学公派研究生项目、中国政府奖学金来华留学生接收院校、卓越工程师教育培养计划、卓越法律人才教育培养计划、全国深化创新创业教育改革示范高校、首批高等学校科技成果转化和技术转移基地，中西部“一省一校”国家重点建设大学（Z14）联盟，中国—中亚国家大学联盟发起高校、上海合作组织大学。1924年，新疆俄文法政专门学校创立，拉开了新疆高等教育的序幕；1935年，改建为新疆学院；1947年，拟改建为“",
+      "location": "新疆维吾尔自治区 · 乌鲁木齐市",
+      "type": "211/双一流",
+      "website": "https://www.xju.edu.cn",
+      "established_year": null,
+      "student_count": 0,
+      "feature_tag": "211",
+      "created_at": "2026-05-01T15:06:05.971Z",
+      "updated_at": "2026-05-01T15:07:35.981Z"
     }
   ],
   "ratings": [
@@ -343,6 +358,48 @@
       "university_id": 480,
       "category": "安全指数",
       "score": 8
+    },
+    {
+      "id": 553,
+      "university_id": 552,
+      "category": "宿舍条件",
+      "score": 3
+    },
+    {
+      "id": 554,
+      "university_id": 552,
+      "category": "食堂质量",
+      "score": 3
+    },
+    {
+      "id": 555,
+      "university_id": 552,
+      "category": "师资水平",
+      "score": 6
+    },
+    {
+      "id": 556,
+      "university_id": 552,
+      "category": "校园环境",
+      "score": 6
+    },
+    {
+      "id": 557,
+      "university_id": 552,
+      "category": "人文氛围",
+      "score": 3
+    },
+    {
+      "id": 558,
+      "university_id": 552,
+      "category": "就业支持",
+      "score": 6
+    },
+    {
+      "id": 559,
+      "university_id": 552,
+      "category": "安全指数",
+      "score": 10
     }
   ],
   "feature_tags": [
@@ -823,7 +880,7 @@
       "updated_at": "2026-05-01T15:01:09.508Z"
     }
   ],
-  "nextId": 549,
+  "nextId": 560,
   "audit_logs": [
     {
       "id": 319,
@@ -848,111 +905,33 @@
       "target_id": 430,
       "detail": "创建大学: ??????，应用标签模板ID 427",
       "timestamp": "2026-05-01T14:59:45.995Z"
+    },
+    {
+      "id": 549,
+      "action": "DELETE",
+      "target_type": "tag_template",
+      "target_id": 429,
+      "detail": "删除标签模板ID 429",
+      "timestamp": "2026-05-01T15:04:29.832Z"
+    },
+    {
+      "id": 550,
+      "action": "DELETE",
+      "target_type": "tag_template",
+      "target_id": 428,
+      "detail": "删除标签模板ID 428",
+      "timestamp": "2026-05-01T15:04:31.334Z"
+    },
+    {
+      "id": 551,
+      "action": "DELETE",
+      "target_type": "tag_template",
+      "target_id": 427,
+      "detail": "删除标签模板ID 427",
+      "timestamp": "2026-05-01T15:04:32.981Z"
     }
   ],
   "tag_templates": [
-    {
-      "id": 427,
-      "name": "理想宿舍型",
-      "description": "宿舍条件优秀的学校标配",
-      "tags": [
-        {
-          "tag_name": "上床下铺",
-          "status": 1,
-          "description": "学生宿舍是否提供上床下铺的设计"
-        },
-        {
-          "tag_name": "独立卫浴",
-          "status": 1,
-          "description": "宿舍是否配备独立卫生间和浴室"
-        },
-        {
-          "tag_name": "空调覆盖",
-          "status": 1,
-          "description": "宿舍及教学楼是否全面覆盖空调"
-        },
-        {
-          "tag_name": "24h热水",
-          "status": 1,
-          "description": "宿舍是否提供24小时热水供应"
-        },
-        {
-          "tag_name": "校园WiFi",
-          "status": 1,
-          "description": "全校是否覆盖免费WiFi网络"
-        }
-      ],
-      "created_at": "2026-05-01T14:58:43.095Z",
-      "updated_at": "2026-05-01T14:58:43.095Z"
-    },
-    {
-      "id": 428,
-      "name": "都市便利型",
-      "description": "适合喜欢城市生活的学生",
-      "tags": [
-        {
-          "tag_name": "地铁直达",
-          "status": 1,
-          "description": "校园附近是否有地铁站直达"
-        },
-        {
-          "tag_name": "健身房",
-          "status": 1,
-          "description": "校园内是否配备免费或低价健身房"
-        },
-        {
-          "tag_name": "校园WiFi",
-          "status": 1,
-          "description": "全校是否覆盖免费WiFi网络"
-        },
-        {
-          "tag_name": "通宵自习室",
-          "status": 1,
-          "description": "校园内是否设有通宵开放的自习室"
-        }
-      ],
-      "created_at": "2026-05-01T14:58:43.096Z",
-      "updated_at": "2026-05-01T14:58:43.096Z"
-    },
-    {
-      "id": 429,
-      "name": "艰苦朴素型",
-      "description": "传统老校区常见配置",
-      "tags": [
-        {
-          "tag_name": "上床下铺",
-          "status": 1,
-          "description": "学生宿舍是否提供上床下铺的设计"
-        },
-        {
-          "tag_name": "独立卫浴",
-          "status": 0,
-          "description": "宿舍是否配备独立卫生间和浴室"
-        },
-        {
-          "tag_name": "空调覆盖",
-          "status": 0,
-          "description": "宿舍及教学楼是否全面覆盖空调"
-        },
-        {
-          "tag_name": "通宵自习室",
-          "status": 1,
-          "description": "校园内是否设有通宵开放的自习室"
-        },
-        {
-          "tag_name": "健身房",
-          "status": 0,
-          "description": "校园内是否配备免费或低价健身房"
-        },
-        {
-          "tag_name": "地铁直达",
-          "status": 0,
-          "description": "校园附近是否有地铁站直达"
-        }
-      ],
-      "created_at": "2026-05-01T14:58:43.096Z",
-      "updated_at": "2026-05-01T14:58:43.096Z"
-    },
     {
       "id": 546,
       "name": "理想宿舍型",
