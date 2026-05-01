@@ -1,4 +1,4 @@
-import type { ApiResponse, UniversityListItem, UniversityDetail, University, Rating, FeatureTag, Comment, AuditLog } from './types';
+import type { ApiResponse, UniversityListItem, UniversityDetail, University, Rating, FeatureTag, Comment, AuditLog, TagTemplate } from './types';
 
 const BASE = '/api';
 
@@ -115,5 +115,35 @@ export const api = {
 
   getAuditLogs(): Promise<AuditLog[]> {
     return request<AuditLog[]>('/comments/audit/logs');
+  },
+
+  getTagTemplates(): Promise<TagTemplate[]> {
+    return request<TagTemplate[]>('/templates');
+  },
+
+  getTagTemplate(id: number): Promise<TagTemplate> {
+    return request<TagTemplate>(`/templates/${id}`);
+  },
+
+  createTagTemplate(data: Partial<TagTemplate>): Promise<TagTemplate> {
+    return request<TagTemplate>('/templates', {
+      method: 'POST',
+      body: JSON.stringify(data),
+    });
+  },
+
+  updateTagTemplate(id: number, data: Partial<TagTemplate>): Promise<TagTemplate> {
+    return request<TagTemplate>(`/templates/${id}`, {
+      method: 'PUT',
+      body: JSON.stringify(data),
+    });
+  },
+
+  deleteTagTemplate(id: number): Promise<void> {
+    return request<void>(`/templates/${id}`, { method: 'DELETE' });
+  },
+
+  applyTemplate(templateId: number, universityId: number): Promise<FeatureTag[]> {
+    return request<FeatureTag[]>(`/templates/${templateId}/apply/${universityId}`, { method: 'POST' });
   },
 };

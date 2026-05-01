@@ -35,11 +35,28 @@ router.get('/:id', (req: Request, res: Response) => {
 });
 
 router.post('/', (req: Request, res: Response) => {
-  const { name } = req.body;
+  const { name, tags, template_id } = req.body;
   if (!name) {
     return res.status(400).json({ success: false, message: '大学名称为必填项' });
   }
-  const newUni = db.createUniversity(req.body);
+  const uniData: Record<string, unknown> = {
+    name, type: req.body.type, location: req.body.location,
+    description: req.body.description, website: req.body.website,
+    established_year: req.body.established_year,
+    student_count: req.body.student_count,
+    feature_tag: req.body.feature_tag,
+    logo: req.body.logo || '',
+    cover_image: req.body.cover_image || '',
+  };
+  const newUni = db.createUniversity(uniData as Parameters<typeof db.createUniversity>[0]);
+  if (template_id) {
+    db.applyTemplateToUniversity(parseInt(template_id), newUni.id);
+    db.addAuditLog('CREATE', 'university', newUni.id, `创建大学: ${name}，应用标签模板ID ${template_id}`);
+  } else if (tags && Array.isArray(tags) && tags.length > 0) {
+    tags.forEach((tag: { tag_name: string; status: number; description?: string }, idx: number) => {
+      db.createTag(newUni.id, { tag_name: tag.tag_name, status: tag.status, description: tag.description || '', sort_order: idx });
+    });
+  }
   res.status(201).json({ success: true, data: newUni });
 });
 

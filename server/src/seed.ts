@@ -106,7 +106,47 @@ function seed() {
     db.createComment(created[commentUniIds[i]], commentUsers[i], content, commentRatings[i]);
   });
 
-  console.log(`✅ 已生成 ${created.length} 所大学，包含评分、标签和评论数据`);
+  const sampleTemplates = [
+    {
+      name: '理想宿舍型',
+      description: '宿舍条件优秀的学校标配',
+      tags: [
+        { tag_name: '上床下铺', status: 1, description: '学生宿舍是否提供上床下铺的设计' },
+        { tag_name: '独立卫浴', status: 1, description: '宿舍是否配备独立卫生间和浴室' },
+        { tag_name: '空调覆盖', status: 1, description: '宿舍及教学楼是否全面覆盖空调' },
+        { tag_name: '24h热水', status: 1, description: '宿舍是否提供24小时热水供应' },
+        { tag_name: '校园WiFi', status: 1, description: '全校是否覆盖免费WiFi网络' },
+      ],
+    },
+    {
+      name: '都市便利型',
+      description: '适合喜欢城市生活的学生',
+      tags: [
+        { tag_name: '地铁直达', status: 1, description: '校园附近是否有地铁站直达' },
+        { tag_name: '健身房', status: 1, description: '校园内是否配备免费或低价健身房' },
+        { tag_name: '校园WiFi', status: 1, description: '全校是否覆盖免费WiFi网络' },
+        { tag_name: '通宵自习室', status: 1, description: '校园内是否设有通宵开放的自习室' },
+      ],
+    },
+    {
+      name: '艰苦朴素型',
+      description: '传统老校区常见配置',
+      tags: [
+        { tag_name: '上床下铺', status: 1, description: '学生宿舍是否提供上床下铺的设计' },
+        { tag_name: '独立卫浴', status: 0, description: '宿舍是否配备独立卫生间和浴室' },
+        { tag_name: '空调覆盖', status: 0, description: '宿舍及教学楼是否全面覆盖空调' },
+        { tag_name: '通宵自习室', status: 1, description: '校园内是否设有通宵开放的自习室' },
+        { tag_name: '健身房', status: 0, description: '校园内是否配备免费或低价健身房' },
+        { tag_name: '地铁直达', status: 0, description: '校园附近是否有地铁站直达' },
+      ],
+    },
+  ];
+
+  sampleTemplates.forEach(tpl => {
+    db.createTagTemplate(tpl);
+  });
+
+  console.log(`✅ 已生成 ${created.length} 所大学、${sampleComments.length} 条评论和 ${sampleTemplates.length} 个标签模板`);
 }
 
 seed();

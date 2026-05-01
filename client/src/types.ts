@@ -49,6 +49,21 @@ export interface AuditLog {
   timestamp: string;
 }
 
+export interface TagTemplateItem {
+  tag_name: string;
+  status: number;
+  description: string;
+}
+
+export interface TagTemplate {
+  id: number;
+  name: string;
+  description: string;
+  tags: TagTemplateItem[];
+  created_at: string;
+  updated_at: string;
+}
+
 export interface UniversityListItem extends University {
   ratings: Record<string, number>;
   avgScore: number;

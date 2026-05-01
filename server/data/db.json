@@ -1,7 +1,7 @@
 {
   "universities": [
     {
-      "id": 213,
+      "id": 440,
       "name": "清华大学",
       "logo": "",
       "cover_image": "",
@@ -12,11 +12,11 @@
       "established_year": 1911,
       "student_count": 50000,
       "feature_tag": "985/211/双一流",
-      "created_at": "2026-05-01T14:41:55.193Z",
-      "updated_at": "2026-05-01T14:41:55.193Z"
+      "created_at": "2026-05-01T15:01:09.428Z",
+      "updated_at": "2026-05-01T15:01:09.428Z"
     },
     {
-      "id": 221,
+      "id": 448,
       "name": "北京大学",
       "logo": "",
       "cover_image": "",
@@ -27,11 +27,11 @@
       "established_year": 1898,
       "student_count": 45000,
       "feature_tag": "985/211/双一流",
-      "created_at": "2026-05-01T14:41:55.202Z",
-      "updated_at": "2026-05-01T14:41:55.202Z"
+      "created_at": "2026-05-01T15:01:09.435Z",
+      "updated_at": "2026-05-01T15:01:09.435Z"
     },
     {
-      "id": 229,
+      "id": 456,
       "name": "浙江大学",
       "logo": "",
       "cover_image": "",
@@ -42,11 +42,11 @@
       "established_year": 1897,
       "student_count": 60000,
       "feature_tag": "985/211/双一流",
-      "created_at": "2026-05-01T14:41:55.209Z",
-      "updated_at": "2026-05-01T14:41:55.209Z"
+      "created_at": "2026-05-01T15:01:09.440Z",
+      "updated_at": "2026-05-01T15:01:09.440Z"
     },
     {
-      "id": 237,
+      "id": 464,
       "name": "复旦大学",
       "logo": "",
       "cover_image": "",
@@ -57,11 +57,11 @@
       "established_year": 1905,
       "student_count": 40000,
       "feature_tag": "985/211/双一流",
-      "created_at": "2026-05-01T14:41:55.214Z",
-      "updated_at": "2026-05-01T14:41:55.214Z"
+      "created_at": "2026-05-01T15:01:09.445Z",
+      "updated_at": "2026-05-01T15:01:09.445Z"
     },
     {
-      "id": 245,
+      "id": 472,
       "name": "上海交通大学",
       "logo": "",
       "cover_image": "",
@@ -72,11 +72,11 @@
       "established_year": 1896,
       "student_count": 42000,
       "feature_tag": "985/211/双一流",
-      "created_at": "2026-05-01T14:41:55.220Z",
-      "updated_at": "2026-05-01T14:41:55.220Z"
+      "created_at": "2026-05-01T15:01:09.450Z",
+      "updated_at": "2026-05-01T15:01:09.450Z"
     },
     {
-      "id": 253,
+      "id": 480,
       "name": "武汉大学",
       "logo": "",
       "cover_image": "",
@@ -87,644 +87,644 @@
       "established_year": 1893,
       "student_count": 38000,
       "feature_tag": "985/211/双一流",
-      "created_at": "2026-05-01T14:41:55.226Z",
-      "updated_at": "2026-05-01T14:41:55.226Z"
+      "created_at": "2026-05-01T15:01:09.456Z",
+      "updated_at": "2026-05-01T15:01:09.456Z"
     }
   ],
   "ratings": [
     {
-      "id": 214,
-      "university_id": 213,
+      "id": 441,
+      "university_id": 440,
       "category": "宿舍条件",
       "score": 7
     },
     {
-      "id": 215,
-      "university_id": 213,
+      "id": 442,
+      "university_id": 440,
       "category": "食堂质量",
       "score": 8
     },
     {
-      "id": 216,
-      "university_id": 213,
+      "id": 443,
+      "university_id": 440,
       "category": "师资水平",
       "score": 9
     },
     {
-      "id": 217,
-      "university_id": 213,
+      "id": 444,
+      "university_id": 440,
       "category": "校园环境",
       "score": 9
     },
     {
-      "id": 218,
-      "university_id": 213,
+      "id": 445,
+      "university_id": 440,
       "category": "人文氛围",
       "score": 9
     },
     {
-      "id": 219,
-      "university_id": 213,
+      "id": 446,
+      "university_id": 440,
       "category": "就业支持",
       "score": 9
     },
     {
-      "id": 220,
-      "university_id": 213,
+      "id": 447,
+      "university_id": 440,
       "category": "安全指数",
       "score": 9
     },
     {
-      "id": 222,
-      "university_id": 221,
+      "id": 449,
+      "university_id": 448,
       "category": "宿舍条件",
       "score": 7
     },
     {
-      "id": 223,
-      "university_id": 221,
+      "id": 450,
+      "university_id": 448,
       "category": "食堂质量",
       "score": 8
     },
     {
-      "id": 224,
-      "university_id": 221,
+      "id": 451,
+      "university_id": 448,
       "category": "师资水平",
       "score": 9
     },
     {
-      "id": 225,
-      "university_id": 221,
+      "id": 452,
+      "university_id": 448,
       "category": "校园环境",
       "score": 8
     },
     {
-      "id": 226,
-      "university_id": 221,
+      "id": 453,
+      "university_id": 448,
       "category": "人文氛围",
       "score": 10
     },
     {
-      "id": 227,
-      "university_id": 221,
+      "id": 454,
+      "university_id": 448,
       "category": "就业支持",
       "score": 9
     },
     {
-      "id": 228,
-      "university_id": 221,
+      "id": 455,
+      "university_id": 448,
       "category": "安全指数",
       "score": 8
     },
     {
-      "id": 230,
-      "university_id": 229,
+      "id": 457,
+      "university_id": 456,
       "category": "宿舍条件",
       "score": 8
     },
     {
-      "id": 231,
-      "university_id": 229,
+      "id": 458,
+      "university_id": 456,
       "category": "食堂质量",
       "score": 9
     },
     {
-      "id": 232,
-      "university_id": 229,
+      "id": 459,
+      "university_id": 456,
       "category": "师资水平",
       "score": 9
     },
     {
-      "id": 233,
-      "university_id": 229,
+      "id": 460,
+      "university_id": 456,
       "category": "校园环境",
       "score": 9
     },
     {
-      "id": 234,
-      "university_id": 229,
+      "id": 461,
+      "university_id": 456,
       "category": "人文氛围",
       "score": 8
     },
     {
-      "id": 235,
-      "university_id": 229,
+      "id": 462,
+      "university_id": 456,
       "category": "就业支持",
       "score": 9
     },
     {
-      "id": 236,
-      "university_id": 229,
+      "id": 463,
+      "university_id": 456,
       "category": "安全指数",
       "score": 9
     },
     {
-      "id": 238,
-      "university_id": 237,
+      "id": 465,
+      "university_id": 464,
       "category": "宿舍条件",
       "score": 7
     },
     {
-      "id": 239,
-      "university_id": 237,
+      "id": 466,
+      "university_id": 464,
       "category": "食堂质量",
       "score": 8
     },
     {
-      "id": 240,
-      "university_id": 237,
+      "id": 467,
+      "university_id": 464,
       "category": "师资水平",
       "score": 9
     },
     {
-      "id": 241,
-      "university_id": 237,
+      "id": 468,
+      "university_id": 464,
       "category": "校园环境",
       "score": 8
     },
     {
-      "id": 242,
-      "university_id": 237,
+      "id": 469,
+      "university_id": 464,
       "category": "人文氛围",
       "score": 9
     },
     {
-      "id": 243,
-      "university_id": 237,
+      "id": 470,
+      "university_id": 464,
       "category": "就业支持",
       "score": 9
     },
     {
-      "id": 244,
-      "university_id": 237,
+      "id": 471,
+      "university_id": 464,
       "category": "安全指数",
       "score": 8
     },
     {
-      "id": 246,
-      "university_id": 245,
+      "id": 473,
+      "university_id": 472,
       "category": "宿舍条件",
       "score": 8
     },
     {
-      "id": 247,
-      "university_id": 245,
+      "id": 474,
+      "university_id": 472,
       "category": "食堂质量",
       "score": 8
     },
     {
-      "id": 248,
-      "university_id": 245,
+      "id": 475,
+      "university_id": 472,
       "category": "师资水平",
       "score": 9
     },
     {
-      "id": 249,
-      "university_id": 245,
+      "id": 476,
+      "university_id": 472,
       "category": "校园环境",
       "score": 8
     },
     {
-      "id": 250,
-      "university_id": 245,
+      "id": 477,
+      "university_id": 472,
       "category": "人文氛围",
       "score": 8
     },
     {
-      "id": 251,
-      "university_id": 245,
+      "id": 478,
+      "university_id": 472,
       "category": "就业支持",
       "score": 9
     },
     {
-      "id": 252,
-      "university_id": 245,
+      "id": 479,
+      "university_id": 472,
       "category": "安全指数",
       "score": 9
     },
     {
-      "id": 254,
-      "university_id": 253,
+      "id": 481,
+      "university_id": 480,
       "category": "宿舍条件",
       "score": 8
     },
     {
-      "id": 255,
-      "university_id": 253,
+      "id": 482,
+      "university_id": 480,
       "category": "食堂质量",
       "score": 7
     },
     {
-      "id": 256,
-      "university_id": 253,
+      "id": 483,
+      "university_id": 480,
       "category": "师资水平",
       "score": 8
     },
     {
-      "id": 257,
-      "university_id": 253,
+      "id": 484,
+      "university_id": 480,
       "category": "校园环境",
       "score": 10
     },
     {
-      "id": 258,
-      "university_id": 253,
+      "id": 485,
+      "university_id": 480,
       "category": "人文氛围",
       "score": 9
     },
     {
-      "id": 259,
-      "university_id": 253,
+      "id": 486,
+      "university_id": 480,
       "category": "就业支持",
       "score": 8
     },
     {
-      "id": 260,
-      "university_id": 253,
+      "id": 487,
+      "university_id": 480,
       "category": "安全指数",
       "score": 8
     }
   ],
   "feature_tags": [
     {
-      "id": 261,
-      "university_id": 213,
+      "id": 488,
+      "university_id": 440,
       "tag_name": "上床下铺",
       "status": 1,
       "description": "学生宿舍是否提供上床下铺的设计",
       "sort_order": 0
     },
     {
-      "id": 262,
-      "university_id": 213,
+      "id": 489,
+      "university_id": 440,
       "tag_name": "独立卫浴",
       "status": 0,
       "description": "宿舍是否配备独立卫生间和浴室",
       "sort_order": 1
     },
     {
-      "id": 263,
-      "university_id": 213,
+      "id": 490,
+      "university_id": 440,
       "tag_name": "空调覆盖",
       "status": 1,
       "description": "宿舍及教学楼是否全面覆盖空调",
       "sort_order": 2
     },
     {
-      "id": 264,
-      "university_id": 213,
+      "id": 491,
+      "university_id": 440,
       "tag_name": "校园WiFi",
       "status": 1,
       "description": "全校是否覆盖免费WiFi网络",
       "sort_order": 3
     },
     {
-      "id": 265,
-      "university_id": 213,
+      "id": 492,
+      "university_id": 440,
       "tag_name": "24h热水",
       "status": 1,
       "description": "宿舍是否提供24小时热水供应",
       "sort_order": 4
     },
     {
-      "id": 266,
-      "university_id": 213,
+      "id": 493,
+      "university_id": 440,
       "tag_name": "通宵自习室",
       "status": 1,
       "description": "校园内是否设有通宵开放的自习室",
       "sort_order": 5
     },
     {
-      "id": 267,
-      "university_id": 213,
+      "id": 494,
+      "university_id": 440,
       "tag_name": "地铁直达",
       "status": 1,
       "description": "校园附近是否有地铁站直达",
       "sort_order": 6
     },
     {
-      "id": 268,
-      "university_id": 213,
+      "id": 495,
+      "university_id": 440,
       "tag_name": "健身房",
       "status": 1,
       "description": "校园内是否配备免费或低价健身房",
       "sort_order": 7
     },
     {
-      "id": 269,
-      "university_id": 221,
+      "id": 496,
+      "university_id": 448,
       "tag_name": "上床下铺",
       "status": 1,
       "description": "学生宿舍是否提供上床下铺的设计",
       "sort_order": 0
     },
     {
-      "id": 270,
-      "university_id": 221,
+      "id": 497,
+      "university_id": 448,
       "tag_name": "独立卫浴",
       "status": 0,
       "description": "宿舍是否配备独立卫生间和浴室",
       "sort_order": 1
     },
     {
-      "id": 271,
-      "university_id": 221,
+      "id": 498,
+      "university_id": 448,
       "tag_name": "空调覆盖",
       "status": 1,
       "description": "宿舍及教学楼是否全面覆盖空调",
       "sort_order": 2
     },
     {
-      "id": 272,
-      "university_id": 221,
+      "id": 499,
+      "university_id": 448,
       "tag_name": "校园WiFi",
       "status": 1,
       "description": "全校是否覆盖免费WiFi网络",
       "sort_order": 3
     },
     {
-      "id": 273,
-      "university_id": 221,
+      "id": 500,
+      "university_id": 448,
       "tag_name": "24h热水",
       "status": 1,
       "description": "宿舍是否提供24小时热水供应",
       "sort_order": 4
     },
     {
-      "id": 274,
-      "university_id": 221,
+      "id": 501,
+      "university_id": 448,
       "tag_name": "通宵自习室",
       "status": 1,
       "description": "校园内是否设有通宵开放的自习室",
       "sort_order": 5
     },
     {
-      "id": 275,
-      "university_id": 221,
+      "id": 502,
+      "university_id": 448,
       "tag_name": "地铁直达",
       "status": 1,
       "description": "校园附近是否有地铁站直达",
       "sort_order": 6
     },
     {
-      "id": 276,
-      "university_id": 221,
+      "id": 503,
+      "university_id": 448,
       "tag_name": "健身房",
       "status": 0,
       "description": "校园内是否配备免费或低价健身房",
       "sort_order": 7
     },
     {
-      "id": 277,
-      "university_id": 229,
+      "id": 504,
+      "university_id": 456,
       "tag_name": "上床下铺",
       "status": 1,
       "description": "学生宿舍是否提供上床下铺的设计",
       "sort_order": 0
     },
     {
-      "id": 278,
-      "university_id": 229,
+      "id": 505,
+      "university_id": 456,
       "tag_name": "独立卫浴",
       "status": 1,
       "description": "宿舍是否配备独立卫生间和浴室",
       "sort_order": 1
     },
     {
-      "id": 279,
-      "university_id": 229,
+      "id": 506,
+      "university_id": 456,
       "tag_name": "空调覆盖",
       "status": 1,
       "description": "宿舍及教学楼是否全面覆盖空调",
       "sort_order": 2
     },
     {
-      "id": 280,
-      "university_id": 229,
+      "id": 507,
+      "university_id": 456,
       "tag_name": "校园WiFi",
       "status": 1,
       "description": "全校是否覆盖免费WiFi网络",
       "sort_order": 3
     },
     {
-      "id": 281,
-      "university_id": 229,
+      "id": 508,
+      "university_id": 456,
       "tag_name": "24h热水",
       "status": 1,
       "description": "宿舍是否提供24小时热水供应",
       "sort_order": 4
     },
     {
-      "id": 282,
-      "university_id": 229,
+      "id": 509,
+      "university_id": 456,
       "tag_name": "通宵自习室",
       "status": 1,
       "description": "校园内是否设有通宵开放的自习室",
       "sort_order": 5
     },
     {
-      "id": 283,
-      "university_id": 229,
+      "id": 510,
+      "university_id": 456,
       "tag_name": "地铁直达",
       "status": 0,
       "description": "校园附近是否有地铁站直达",
       "sort_order": 6
     },
     {
-      "id": 284,
-      "university_id": 229,
+      "id": 511,
+      "university_id": 456,
       "tag_name": "健身房",
       "status": 1,
       "description": "校园内是否配备免费或低价健身房",
       "sort_order": 7
     },
     {
-      "id": 285,
-      "university_id": 237,
+      "id": 512,
+      "university_id": 464,
       "tag_name": "上床下铺",
       "status": 1,
       "description": "学生宿舍是否提供上床下铺的设计",
       "sort_order": 0
     },
     {
-      "id": 286,
-      "university_id": 237,
+      "id": 513,
+      "university_id": 464,
       "tag_name": "独立卫浴",
       "status": 1,
       "description": "宿舍是否配备独立卫生间和浴室",
       "sort_order": 1
     },
     {
-      "id": 287,
-      "university_id": 237,
+      "id": 514,
+      "university_id": 464,
       "tag_name": "空调覆盖",
       "status": 1,
       "description": "宿舍及教学楼是否全面覆盖空调",
       "sort_order": 2
     },
     {
-      "id": 288,
-      "university_id": 237,
+      "id": 515,
+      "university_id": 464,
       "tag_name": "校园WiFi",
       "status": 1,
       "description": "全校是否覆盖免费WiFi网络",
       "sort_order": 3
     },
     {
-      "id": 289,
-      "university_id": 237,
+      "id": 516,
+      "university_id": 464,
       "tag_name": "24h热水",
       "status": 0,
       "description": "宿舍是否提供24小时热水供应",
       "sort_order": 4
     },
     {
-      "id": 290,
-      "university_id": 237,
+      "id": 517,
+      "university_id": 464,
       "tag_name": "通宵自习室",
       "status": 1,
       "description": "校园内是否设有通宵开放的自习室",
       "sort_order": 5
     },
     {
-      "id": 291,
-      "university_id": 237,
+      "id": 518,
+      "university_id": 464,
       "tag_name": "地铁直达",
       "status": 1,
       "description": "校园附近是否有地铁站直达",
       "sort_order": 6
     },
     {
-      "id": 292,
-      "university_id": 237,
+      "id": 519,
+      "university_id": 464,
       "tag_name": "健身房",
       "status": 1,
       "description": "校园内是否配备免费或低价健身房",
       "sort_order": 7
     },
     {
-      "id": 293,
-      "university_id": 245,
+      "id": 520,
+      "university_id": 472,
       "tag_name": "上床下铺",
       "status": 1,
       "description": "学生宿舍是否提供上床下铺的设计",
       "sort_order": 0
     },
     {
-      "id": 294,
-      "university_id": 245,
+      "id": 521,
+      "university_id": 472,
       "tag_name": "独立卫浴",
       "status": 1,
       "description": "宿舍是否配备独立卫生间和浴室",
       "sort_order": 1
     },
     {
-      "id": 295,
-      "university_id": 245,
+      "id": 522,
+      "university_id": 472,
       "tag_name": "空调覆盖",
       "status": 1,
       "description": "宿舍及教学楼是否全面覆盖空调",
       "sort_order": 2
     },
     {
-      "id": 296,
-      "university_id": 245,
+      "id": 523,
+      "university_id": 472,
       "tag_name": "校园WiFi",
       "status": 1,
       "description": "全校是否覆盖免费WiFi网络",
       "sort_order": 3
     },
     {
-      "id": 297,
-      "university_id": 245,
+      "id": 524,
+      "university_id": 472,
       "tag_name": "24h热水",
       "status": 1,
       "description": "宿舍是否提供24小时热水供应",
       "sort_order": 4
     },
     {
-      "id": 298,
-      "university_id": 245,
+      "id": 525,
+      "university_id": 472,
       "tag_name": "通宵自习室",
       "status": 1,
       "description": "校园内是否设有通宵开放的自习室",
       "sort_order": 5
     },
     {
-      "id": 299,
-      "university_id": 245,
+      "id": 526,
+      "university_id": 472,
       "tag_name": "地铁直达",
       "status": 1,
       "description": "校园附近是否有地铁站直达",
       "sort_order": 6
     },
     {
-      "id": 300,
-      "university_id": 245,
+      "id": 527,
+      "university_id": 472,
       "tag_name": "健身房",
       "status": 1,
       "description": "校园内是否配备免费或低价健身房",
       "sort_order": 7
     },
     {
-      "id": 301,
-      "university_id": 253,
+      "id": 528,
+      "university_id": 480,
       "tag_name": "上床下铺",
       "status": 1,
       "description": "学生宿舍是否提供上床下铺的设计",
       "sort_order": 0
     },
     {
-      "id": 302,
-      "university_id": 253,
+      "id": 529,
+      "university_id": 480,
       "tag_name": "独立卫浴",
       "status": 1,
       "description": "宿舍是否配备独立卫生间和浴室",
       "sort_order": 1
     },
     {
-      "id": 303,
-      "university_id": 253,
+      "id": 530,
+      "university_id": 480,
       "tag_name": "空调覆盖",
       "status": 1,
       "description": "宿舍及教学楼是否全面覆盖空调",
       "sort_order": 2
     },
     {
-      "id": 304,
-      "university_id": 253,
+      "id": 531,
+      "university_id": 480,
       "tag_name": "校园WiFi",
       "status": 1,
       "description": "全校是否覆盖免费WiFi网络",
       "sort_order": 3
     },
     {
-      "id": 305,
-      "university_id": 253,
+      "id": 532,
+      "university_id": 480,
       "tag_name": "24h热水",
       "status": 1,
       "description": "宿舍是否提供24小时热水供应",
       "sort_order": 4
     },
     {
-      "id": 306,
-      "university_id": 253,
+      "id": 533,
+      "university_id": 480,
       "tag_name": "通宵自习室",
       "status": 0,
       "description": "校园内是否设有通宵开放的自习室",
       "sort_order": 5
     },
     {
-      "id": 307,
-      "university_id": 253,
+      "id": 534,
+      "university_id": 480,
       "tag_name": "地铁直达",
       "status": 1,
       "description": "校园附近是否有地铁站直达",
       "sort_order": 6
     },
     {
-      "id": 308,
-      "university_id": 253,
+      "id": 535,
+      "university_id": 480,
       "tag_name": "健身房",
       "status": 0,
       "description": "校园内是否配备免费或低价健身房",
@@ -733,88 +733,97 @@
   ],
   "comments": [
     {
-      "id": 309,
-      "university_id": 213,
+      "id": 536,
+      "university_id": 440,
       "user_name": "学长A",
       "content": "预科期间住的紫荆22号楼，双人间很舒适，就是没有独立卫浴稍微不方便。正式开学后据说要搬到新建的东水磨去住。",
       "rating": 7,
-      "created_at": "2026-05-01T14:41:55.269Z",
-      "updated_at": "2026-05-01T14:41:55.269Z"
+      "created_at": "2026-05-01T15:01:09.499Z",
+      "updated_at": "2026-05-01T15:01:09.499Z"
     },
     {
-      "id": 310,
-      "university_id": 213,
+      "id": 537,
+      "university_id": 440,
       "user_name": "匿名",
       "content": "宿舍条件食堂质量师资水平校园环境人文氛围就业支持安全指数确实挺好，但是现在的教授有很多商业化严重。",
       "rating": 6,
-      "created_at": "2026-05-01T14:41:55.270Z",
-      "updated_at": "2026-05-01T14:41:55.270Z"
+      "created_at": "2026-05-01T15:01:09.500Z",
+      "updated_at": "2026-05-01T15:01:09.500Z"
     },
     {
-      "id": 311,
-      "university_id": 213,
+      "id": 538,
+      "university_id": 440,
       "user_name": "创业达人",
       "content": "我只能说是国内天花板，尤其是有创业梦想的朋友，清华系是最棒的创业帮派，计算机系很推荐！",
       "rating": 9,
-      "created_at": "2026-05-01T14:41:55.270Z",
-      "updated_at": "2026-05-01T14:41:55.270Z"
+      "created_at": "2026-05-01T15:01:09.501Z",
+      "updated_at": "2026-05-01T15:01:09.501Z"
     },
     {
-      "id": 312,
-      "university_id": 213,
+      "id": 539,
+      "university_id": 440,
       "user_name": "大四老油条",
       "content": "食堂爆赞图书馆爆赞，就是部分宿舍有些逆天。环境也是夯爆了，杨絮柳絮柏树总有一款适合你，只要待得久再怎么铁石心肠总有流泪那天。",
       "rating": 8,
-      "created_at": "2026-05-01T14:41:55.271Z",
-      "updated_at": "2026-05-01T14:41:55.271Z"
+      "created_at": "2026-05-01T15:01:09.502Z",
+      "updated_at": "2026-05-01T15:01:09.502Z"
     },
     {
-      "id": 313,
-      "university_id": 213,
+      "id": 540,
+      "university_id": 440,
       "user_name": "新生小王",
       "content": "没话说，除了吃了老建筑和老配套的亏，住行上有一丝丝不方便。其他的，没啥能挑了。",
       "rating": 7,
-      "created_at": "2026-05-01T14:41:55.272Z",
-      "updated_at": "2026-05-01T14:41:55.272Z"
+      "created_at": "2026-05-01T15:01:09.503Z",
+      "updated_at": "2026-05-01T15:01:09.503Z"
     },
     {
-      "id": 314,
-      "university_id": 221,
+      "id": 541,
+      "university_id": 448,
       "user_name": "文史哲爱好者",
       "content": "北大的人文关怀绝对被低估了，老师里开到SSR的概率相当高。未名湖畔的风景让人流连忘返。",
       "rating": 8,
-      "created_at": "2026-05-01T14:41:55.272Z",
-      "updated_at": "2026-05-01T14:41:55.272Z"
+      "created_at": "2026-05-01T15:01:09.504Z",
+      "updated_at": "2026-05-01T15:01:09.504Z"
     },
     {
-      "id": 315,
-      "university_id": 229,
+      "id": 542,
+      "university_id": 456,
       "user_name": "工科狗",
       "content": "仅评价GOAT，不谈了。着重提一下浙大的工科实力，计算机和人工智能方向非常强劲。",
       "rating": 9,
-      "created_at": "2026-05-01T14:41:55.273Z",
-      "updated_at": "2026-05-01T14:41:55.273Z"
+      "created_at": "2026-05-01T15:01:09.505Z",
+      "updated_at": "2026-05-01T15:01:09.505Z"
     },
     {
-      "id": 316,
-      "university_id": 237,
+      "id": 543,
+      "university_id": 464,
       "user_name": "自由而无用",
       "content": "复旦的自由而无用的灵魂令人着迷，经管和新闻传播学科实力雄厚。",
       "rating": 8,
-      "created_at": "2026-05-01T14:41:55.274Z",
-      "updated_at": "2026-05-01T14:41:55.274Z"
+      "created_at": "2026-05-01T15:01:09.506Z",
+      "updated_at": "2026-05-01T15:01:09.506Z"
     },
     {
-      "id": 317,
-      "university_id": 245,
+      "id": 544,
+      "university_id": 472,
       "user_name": "闵行村民",
       "content": "交大的工科氛围浓厚，就业相当给力。闵行校区很大，建议备好自行车。",
       "rating": 8,
-      "created_at": "2026-05-01T14:41:55.275Z",
-      "updated_at": "2026-05-01T14:41:55.275Z"
+      "created_at": "2026-05-01T15:01:09.507Z",
+      "updated_at": "2026-05-01T15:01:09.507Z"
+    },
+    {
+      "id": 545,
+      "university_id": 480,
+      "user_name": "珞珈山人",
+      "content": "珞珈山下的樱花季美不胜收，武大的综合实力稳步提升，法学、测绘等学科全国领先。",
+      "rating": 9,
+      "created_at": "2026-05-01T15:01:09.508Z",
+      "updated_at": "2026-05-01T15:01:09.508Z"
     }
   ],
-  "nextId": 321,
+  "nextId": 549,
   "audit_logs": [
     {
       "id": 319,
@@ -831,6 +840,220 @@
       "target_id": 318,
       "detail": "删除评论ID 318",
       "timestamp": "2026-05-01T14:46:17.681Z"
+    },
+    {
+      "id": 436,
+      "action": "CREATE",
+      "target_type": "university",
+      "target_id": 430,
+      "detail": "创建大学: ??????，应用标签模板ID 427",
+      "timestamp": "2026-05-01T14:59:45.995Z"
+    }
+  ],
+  "tag_templates": [
+    {
+      "id": 427,
+      "name": "理想宿舍型",
+      "description": "宿舍条件优秀的学校标配",
+      "tags": [
+        {
+          "tag_name": "上床下铺",
+          "status": 1,
+          "description": "学生宿舍是否提供上床下铺的设计"
+        },
+        {
+          "tag_name": "独立卫浴",
+          "status": 1,
+          "description": "宿舍是否配备独立卫生间和浴室"
+        },
+        {
+          "tag_name": "空调覆盖",
+          "status": 1,
+          "description": "宿舍及教学楼是否全面覆盖空调"
+        },
+        {
+          "tag_name": "24h热水",
+          "status": 1,
+          "description": "宿舍是否提供24小时热水供应"
+        },
+        {
+          "tag_name": "校园WiFi",
+          "status": 1,
+          "description": "全校是否覆盖免费WiFi网络"
+        }
+      ],
+      "created_at": "2026-05-01T14:58:43.095Z",
+      "updated_at": "2026-05-01T14:58:43.095Z"
+    },
+    {
+      "id": 428,
+      "name": "都市便利型",
+      "description": "适合喜欢城市生活的学生",
+      "tags": [
+        {
+          "tag_name": "地铁直达",
+          "status": 1,
+          "description": "校园附近是否有地铁站直达"
+        },
+        {
+          "tag_name": "健身房",
+          "status": 1,
+          "description": "校园内是否配备免费或低价健身房"
+        },
+        {
+          "tag_name": "校园WiFi",
+          "status": 1,
+          "description": "全校是否覆盖免费WiFi网络"
+        },
+        {
+          "tag_name": "通宵自习室",
+          "status": 1,
+          "description": "校园内是否设有通宵开放的自习室"
+        }
+      ],
+      "created_at": "2026-05-01T14:58:43.096Z",
+      "updated_at": "2026-05-01T14:58:43.096Z"
+    },
+    {
+      "id": 429,
+      "name": "艰苦朴素型",
+      "description": "传统老校区常见配置",
+      "tags": [
+        {
+          "tag_name": "上床下铺",
+          "status": 1,
+          "description": "学生宿舍是否提供上床下铺的设计"
+        },
+        {
+          "tag_name": "独立卫浴",
+          "status": 0,
+          "description": "宿舍是否配备独立卫生间和浴室"
+        },
+        {
+          "tag_name": "空调覆盖",
+          "status": 0,
+          "description": "宿舍及教学楼是否全面覆盖空调"
+        },
+        {
+          "tag_name": "通宵自习室",
+          "status": 1,
+          "description": "校园内是否设有通宵开放的自习室"
+        },
+        {
+          "tag_name": "健身房",
+          "status": 0,
+          "description": "校园内是否配备免费或低价健身房"
+        },
+        {
+          "tag_name": "地铁直达",
+          "status": 0,
+          "description": "校园附近是否有地铁站直达"
+        }
+      ],
+      "created_at": "2026-05-01T14:58:43.096Z",
+      "updated_at": "2026-05-01T14:58:43.096Z"
+    },
+    {
+      "id": 546,
+      "name": "理想宿舍型",
+      "description": "宿舍条件优秀的学校标配",
+      "tags": [
+        {
+          "tag_name": "上床下铺",
+          "status": 1,
+          "description": "学生宿舍是否提供上床下铺的设计"
+        },
+        {
+          "tag_name": "独立卫浴",
+          "status": 1,
+          "description": "宿舍是否配备独立卫生间和浴室"
+        },
+        {
+          "tag_name": "空调覆盖",
+          "status": 1,
+          "description": "宿舍及教学楼是否全面覆盖空调"
+        },
+        {
+          "tag_name": "24h热水",
+          "status": 1,
+          "description": "宿舍是否提供24小时热水供应"
+        },
+        {
+          "tag_name": "校园WiFi",
+          "status": 1,
+          "description": "全校是否覆盖免费WiFi网络"
+        }
+      ],
+      "created_at": "2026-05-01T15:01:09.509Z",
+      "updated_at": "2026-05-01T15:01:09.509Z"
+    },
+    {
+      "id": 547,
+      "name": "都市便利型",
+      "description": "适合喜欢城市生活的学生",
+      "tags": [
+        {
+          "tag_name": "地铁直达",
+          "status": 1,
+          "description": "校园附近是否有地铁站直达"
+        },
+        {
+          "tag_name": "健身房",
+          "status": 1,
+          "description": "校园内是否配备免费或低价健身房"
+        },
+        {
+          "tag_name": "校园WiFi",
+          "status": 1,
+          "description": "全校是否覆盖免费WiFi网络"
+        },
+        {
+          "tag_name": "通宵自习室",
+          "status": 1,
+          "description": "校园内是否设有通宵开放的自习室"
+        }
+      ],
+      "created_at": "2026-05-01T15:01:09.510Z",
+      "updated_at": "2026-05-01T15:01:09.510Z"
+    },
+    {
+      "id": 548,
+      "name": "艰苦朴素型",
+      "description": "传统老校区常见配置",
+      "tags": [
+        {
+          "tag_name": "上床下铺",
+          "status": 1,
+          "description": "学生宿舍是否提供上床下铺的设计"
+        },
+        {
+          "tag_name": "独立卫浴",
+          "status": 0,
+          "description": "宿舍是否配备独立卫生间和浴室"
+        },
+        {
+          "tag_name": "空调覆盖",
+          "status": 0,
+          "description": "宿舍及教学楼是否全面覆盖空调"
+        },
+        {
+          "tag_name": "通宵自习室",
+          "status": 1,
+          "description": "校园内是否设有通宵开放的自习室"
+        },
+        {
+          "tag_name": "健身房",
+          "status": 0,
+          "description": "校园内是否配备免费或低价健身房"
+        },
+        {
+          "tag_name": "地铁直达",
+          "status": 0,
+          "description": "校园附近是否有地铁站直达"
+        }
+      ],
+      "created_at": "2026-05-01T15:01:09.511Z",
+      "updated_at": "2026-05-01T15:01:09.511Z"
     }
   ]
 }

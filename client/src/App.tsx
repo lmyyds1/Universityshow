@@ -9,6 +9,7 @@ import UniversityForm from './pages/admin/UniversityForm'
 import TagManager from './pages/admin/TagManager'
 import RatingManager from './pages/admin/RatingManager'
 import CommentManager from './pages/admin/CommentManager'
+import TemplateManager from './pages/admin/TemplateManager'
 
 function ProtectedRoute({ children }: { children: React.ReactNode }) {
   return <AdminGuard>{children}</AdminGuard>
@@ -33,6 +34,7 @@ export default function App() {
         <Route path="university/:id/tags" element={<TagManager />} />
         <Route path="university/:id/ratings" element={<RatingManager />} />
         <Route path="comments" element={<CommentManager />} />
+        <Route path="templates" element={<TemplateManager />} />
       </Route>
       <Route path="/admin/login" element={<AdminGuard><Navigate to="/admin" replace /></AdminGuard>} />
     </Routes>
